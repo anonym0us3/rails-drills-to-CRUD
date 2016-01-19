@@ -1,4 +1,4 @@
-**T-shirt app pseudo-code**
+*T-shirt app pseudo-code*
 
 Multiple users (auth; bcrypt?? or whatnot?), but only 1 admin
 
