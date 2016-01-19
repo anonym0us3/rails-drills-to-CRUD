@@ -1,12 +1,12 @@
 Rails.application.routes.draw do
 
-  get 'articles/index'
+  get '/articles' => "articles#index"
 
-  get 'articles/new'
+  get '/articles/new' => "articles#new"
 
-  get 'articles/create'
+  post '/articles' => "articles#create"
 
-  get 'articles/show'
+  get '/articles/:id' => "articles#show"
 
   get '/users' => "users#index"
 
