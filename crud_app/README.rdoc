@@ -16,4 +16,6 @@ Upon clicking, user's vote is recorded for that particular t-shirt for that day,
 
 T-shirts available to be voted on (all that have been uploaded by admin) shown in 3 columns on the index page
 
-At the end of the day, t-shirt with the most votes is removed from circulation
+At the end of the day, t-shirt with the most votes is removed from circulation & all remaining t-shirts' votes are reset
+
+Following day, remaining t-shirts are available to be voted on again
