@@ -1,28 +1,19 @@
-== README
+T-shirt app pseudo-code
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Multiple users, but only 1 admin
 
-Things you may want to cover:
+Admin (me) uploads t-shirts to the site with various descriptions, photo links, etc
 
-* Ruby version
+Non-admin users have multiple VotingRecords enabling them to vote, once per day
 
-* System dependencies
+Index page shows list of t-shirts that are available to be voted on
 
-* Configuration
+Each t-shirt shows a vote button if the user hasn't voted yet that day
 
-* Database creation
+User can click on the vote button, and will see pop-up asking to confirm their choice for the day
 
-* Database initialization
+Upon clicking, user's vote is recorded for that particular t-shirt for that day, and all Vote buttons on remaining t-shirts disappear (validation of unique vote per day?)
 
-* How to run the test suite
+T-shirts available to be voted on (all that have been uploaded by admin) shown in 3 columns on the index page
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+At the end of the day, t-shirt with the most votes is removed from circulation
